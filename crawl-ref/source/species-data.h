@@ -36,6 +36,22 @@ static const map<species_type, species_def> species_data =
     { SK_MACES_FLAILS, SK_AXES, SK_POLEARMS, SK_LONG_BLADES, SK_STAVES,
       SK_BOWS, SK_CROSSBOWS, SK_SLINGS },
 } },
+    
+{ SP_KOLOSS, {
+    "Ks",
+    "Koloss", "Koloss", "Colossal",
+    SPF_NO_HAIR,
+    -1, 2, -1, 3,
+    MONS_KOLOSS,
+    HT_LAND, US_ALIVE, SIZE_SMALL,
+    7, 4, 6, // 17
+    { STAT_STR }, 2,
+    { { MUT_NEGATIVE_ENERGY_RESISTANCE, 1, 1 } },
+    { "Your size increases as you age", "You are resistant to torment." },
+    { "growing", },
+    { JOB_FIGHTER, JOB_BERSERKER, JOB_SKALD, JOB_TRANSMUTER, JOB_GLADIATOR, JOB_MONK },
+    { SK_UNARMED_COMBAT, SK_AXES, SK_LONG_BLADES },
+} },
 
 { SP_GNOLL, {
     "Gn",
