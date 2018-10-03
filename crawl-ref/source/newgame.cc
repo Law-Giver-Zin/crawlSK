@@ -198,6 +198,7 @@ static const species_type species_order[] =
     SP_HALFLING,       SP_KOBOLD,
     SP_SPRIGGAN,
     // large species
+    SP_KOLOSS,
     SP_OGRE,           SP_TROLL,
     // significantly different body type from human ("monstrous")
     SP_NAGA,           SP_CENTAUR,
@@ -1086,6 +1087,7 @@ static species_group species_groups[] =
             SP_VINE_STALKER,
             SP_VAMPIRE,
             SP_DEMIGOD,
+            SP_KOLOSS,
             SP_FORMICID,
             SP_NAGA,
             SP_OCTOPODE,
