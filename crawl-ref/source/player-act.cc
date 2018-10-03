@@ -177,6 +177,18 @@ bool player::is_habitable_feat(dungeon_feature_type actual_grid) const
 
 size_type player::body_size(size_part_type psize, bool base) const
 {
+    if (species == SP_KOLOSS)
+    {
+        if (experience_level >= 25)
+            return SIZE_GIANT;
+        else if (experience_level >= 19)
+            return SIZE_BIG;
+        else if (experience_level >= 13)
+            return SIZE_LARGE;
+        else if (experience_level >= 7)
+            return MEDIUM;   
+        return SIZE_SMALL;
+    }
     if (base)
         return species_size(species, psize);
     else
