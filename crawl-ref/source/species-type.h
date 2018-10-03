@@ -52,6 +52,7 @@ enum species_type
     SP_FORMICID,
     SP_VINE_STALKER,
     SP_BARACHI,
+    SP_KOLOSS,
     SP_GNOLL,
     NUM_SPECIES,
 
