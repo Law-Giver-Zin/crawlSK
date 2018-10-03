@@ -630,6 +630,8 @@ tileidx_t tilep_species_to_base_tile(int sp, int level)
         return TILEP_BASE_BARACHI;
     case SP_GNOLL:
         return TILEP_BASE_GNOLL;
+    case SP_KOLOSS:
+        return TILEP_BASE_ORC
     default:
         return TILEP_BASE_HUMAN;
     }
