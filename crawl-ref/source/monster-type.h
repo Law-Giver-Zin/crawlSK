@@ -98,6 +98,7 @@ enum monster_type                      // menv[].type
     MONS_BLINK_FROG,
 #if TAG_MAJOR_VERSION > 34
     MONS_BARACHI,
+    MONS_KOLOSS,
     MONS_BEAR,                  // genus
 #endif
     MONS_GRIZZLY_BEAR,
