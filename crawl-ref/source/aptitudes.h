@@ -1522,6 +1522,45 @@ static const species_skill_aptitude species_skill_aptitudes[] =
     APT(SP_BARACHI,             SK_POISON_MAGIC,    1),
     APT(SP_BARACHI,             SK_INVOCATIONS,    -1),
     APT(SP_BARACHI,             SK_EVOCATIONS,      1),
+  
+   // SP_KOLOSS
+    APT(SP_KOLOSS,             SK_FIGHTING,       -2),
+    APT(SP_KOLOSS,             SK_SHORT_BLADES,    0),
+    APT(SP_KOLOSS,             SK_LONG_BLADES,     0),
+    APT(SP_KOLOSS,             SK_AXES,            0),
+    APT(SP_KOLOSS,             SK_MACES_FLAILS,    0),
+    APT(SP_KOLOSS,             SK_POLEARMS,       -2),
+    APT(SP_KOLOSS,             SK_STAVES,         -2),
+    APT(SP_KOLOSS,             SK_SLINGS,         -2),
+    APT(SP_KOLOSS,             SK_BOWS,           -2),
+    APT(SP_KOLOSS,             SK_CROSSBOWS,      -2),
+    APT(SP_KOLOSS,             SK_THROWING,        0),
+    APT(SP_KOLOSS,             SK_ARMOUR,          0),
+    APT(SP_KOLOSS,             SK_DODGING,        -2),
+    APT(SP_KOLOSS,             SK_STEALTH,        -2),
+#if TAG_MAJOR_VERSION == 34
+    APT(SP_KOLOSS,             SK_STABBING,      UNUSABLE_SKILL),
+#endif
+    APT(SP_KOLOSS,             SK_SHIELDS,         0),
+#if TAG_MAJOR_VERSION == 34
+    APT(SP_KOLOSS,             SK_TRAPS,         UNUSABLE_SKILL),
+#endif
+    APT(SP_KOLOSS,             SK_UNARMED_COMBAT,  0),
+    APT(SP_KOLOSS,             SK_SPELLCASTING,   -2),
+    APT(SP_KOLOSS,             SK_CONJURATIONS,    1),
+    APT(SP_KOLOSS,             SK_HEXES,          -2),
+    APT(SP_KOLOSS,             SK_CHARMS,          0),
+    APT(SP_KOLOSS,             SK_SUMMONINGS,     -2),
+    APT(SP_KOLOSS,             SK_NECROMANCY,      0),
+    APT(SP_KOLOSS,             SK_TRANSLOCATIONS, -2),
+    APT(SP_KOLOSS,             SK_TRANSMUTATIONS,  2),
+    APT(SP_KOLOSS,             SK_FIRE_MAGIC,     -1),
+    APT(SP_KOLOSS,             SK_ICE_MAGIC,      -1),
+    APT(SP_KOLOSS,             SK_AIR_MAGIC,      -2),
+    APT(SP_KOLOSS,             SK_EARTH_MAGIC,     0),
+    APT(SP_KOLOSS,             SK_POISON_MAGIC,    0),
+    APT(SP_KOLOSS,             SK_INVOCATIONS,     1),
+    APT(SP_KOLOSS,             SK_EVOCATIONS,     -2),
 
     // SP_GNOLL
     APT(SP_GNOLL,           SK_FIGHTING,        8),
